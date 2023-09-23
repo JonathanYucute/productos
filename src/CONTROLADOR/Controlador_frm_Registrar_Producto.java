@@ -32,7 +32,7 @@ public class Controlador_frm_Registrar_Producto implements ActionListener{
             
             
             ListarProductos lp=new ListarProductos();
-            lp.MostrarTabla(frm_rp.Tablaproductos);
+            lp.MostrarTable(frm_rp.Tablaproductos);
             
             limpiarentradas();
         }

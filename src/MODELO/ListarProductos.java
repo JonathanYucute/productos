@@ -2,7 +2,9 @@
 package MODELO;
 import Conexion.ConexionMysql;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
@@ -10,6 +12,8 @@ import javax.swing.table.DefaultTableModel;
 
 
 public class ListarProductos {
+
+       
     ConexionMysql con=new ConexionMysql();
     Connection cn=con.conectar();
     
@@ -37,7 +41,11 @@ public class ListarProductos {
       }
     }
 
+    /*
     public void MostrarTabla(JTable Tablaproductos) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Not supported yet. *-*-*-*"); //To change body of generated methods, choose Tools | Templates.
     }
+    */
+
+    
 }
